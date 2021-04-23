@@ -57,14 +57,18 @@
 
 
 .section-hero{
-    margin-top: 4rem !important;
-    max-width: 1280px;
-    margin: auto;
+    padding: 4rem 0 !important;
+    background: linear-gradient(rgba(20, 37, 56, 0.73), rgba(0, 0, 0, 0.73)), url("../image/img-2.png") center no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    position: relative; 
+    
 }
 
 .service-head{
     font-size: 25px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
     color: #005C7A;
 }
@@ -74,7 +78,11 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-
+    max-width: 1280px;
+    margin: auto;
+}
+.no-color{
+    background-color: none;
 }
 
 .hero-second-layer{
@@ -85,9 +93,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
-    width: 300px;
-    height: 290px;
+    background-color: rgb(236, 236, 236);
+    width: 290px;
+    height: 260px;
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
@@ -102,20 +110,24 @@
     color: #1B1A1A;
     font-size: 16px;
 }
-.background-topo:hover{
-    background-color: #e2ed166b;
+/* .background-topo:hover{
+    background-color: #fbff01b6;
     transition: 0.5s;
 }
 .background-shida:hover{
-    background-color: #00b2b25e;
+    background-color: #00b2b2b2;
     transition: 0.5s;
 }
 .background-sak:hover{
-    background-color: #078b0079;
+    background-color: #04b14cb9;
     transition: 0.5s;
 }
 .background-photo:hover{
-    background-color: #d9383b67;
+    background-color: #d9383ba8;
+    transition: 0.5s;
+} */
+.hover:hover{
+    background-color: white ;
     transition: 0.5s;
 }
 
@@ -127,9 +139,8 @@
 }
 
 .section-contact {
-   background-color: whitesmoke; 
-   padding: 4rem 0;
-   margin-top: 6rem;
+   background-color: white;
+   padding: 5rem 0;
    border-bottom: 3px solid #00ace6;
 
 }
@@ -137,10 +148,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .about-image{
     width: 500px;
     height: auto;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .about-text{
     margin-left: 50px;
@@ -161,6 +175,7 @@
     align-items: center;
     font-size: 18px;
     color: #005C7A;
+    background-color: whitesmoke;
 }
 
 .cont-1{
@@ -168,6 +183,7 @@
 }
 
 .recerv{
+    
     text-align: center;
     color: #005C7A;
     margin-top: -40px;
@@ -279,4 +295,5 @@
     border-right: 2px solid #005C7A;
     cursor: pointer;
     transition: 0.5s;
-  }
+}
+

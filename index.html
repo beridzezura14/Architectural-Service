@@ -11,141 +11,89 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
-    <body>
+<body>
         
-        <section class="main-navbar">
-            <navbar class="navbar">
-                <div>
-                    <img class="main-logo" src="image/main-logo.png" alt="logo">
-                </div>
-                <ul class="nav">
-                    <li>
-                        <a class="nav-a" href="index.html">თავარი</a>
-                    </li>
-                    <li>
-                        <a class="nav-a" href="">საკონტაქტო</a> 
-                    </li>
-                </ul>
-            </navbar>
-        </section>
+  <section class="main-navbar">
+    <navbar class="navbar">
+      <div>
+        <img class="main-logo" src="image/main-logo.png" alt="logo">
+        </div>
+          <ul class="nav">
+            <li>
+              <a class="nav-a" href="index.html">მთავარი</a>
+            </li>
+            <li>
+              <a class="nav-a" href="">საკონტაქტო</a> 
+            </li>
+          </ul>
+    </navbar>
+  </section>
 
-        <section class="section-hero">
+  <section class="section-hero">
 
-            <!-- <div>
-                <h1 class="service-head" >  სერვისები  </h1>
-            </div> -->
+          <!-- <div>
+              <h1 class="service-head" >  სერვისები  </h1>
+          </div> -->
 
-           <div class="hero">   
-               
-            <div class="popup_main">
-                <ul class="background-photo "   style="background-color: white; cursor:unset">
-                    <!-- <img class="image" src="image/photo.png" alt="photo">
-                    <li class="service-name">ფოტო მონტაჟი</li> -->
-                    <h1 class="services">სერვისები</h1>
-                </ul>
-                <!-- <div class="popup_body">
-                  <div class="popup_back"></div>
-                    <div class="popup_contain">
-                      <div class="popup_close">&times;</div>
-                      <h1 class="popup-head"> ფოტო მონტაჟი</h1>
-                      <div class="popup-flow">
-                      <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                          რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                          შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                          სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                          ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                          ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                          <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
-                      </div> 
+    <div class="hero">              
+      <div class="popup_main no-color">
+        <ul class="background-photo "   style="background-color: white; cursor:unset">
+          <!-- <img class="image" src="image/photo.png" alt="photo">
+          <li class="service-name">ფოტო მონტაჟი</li> -->
+          <h1 class="services">სერვისები</h1>
+        </ul>
+          <!-- <div class="popup_body">
+                <div class="popup_back"></div>
+                  <div class="popup_contain">
+                    <div class="popup_close">&times;</div>
+                    <h1 class="popup-head"> ფოტო მონტაჟი</h1>
+                    <div class="popup-flow">
+                    <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                        რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                        შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                        სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                        ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                        ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                        <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
+                    </div> 
+                  </div>
+              </div> -->
+          </div>
+                  <div class="popup_main">
+                      <ul class="background-topo open_popup hover" id="myBtn">
+                          <img class="image" src="image/topo.png" alt="topo">
+                          <li class="service-name"  >ტოპოგრაფია</li>                            
+                      </ul>
+                      <div class="popup_body">
+                        <div class="popup_back"></div>
+                          <div class="popup_contain">
+                            <div class="popup_close">&times;</div>                               
+                              
+                              <h1 class="popup-head"> ტოპოგრაფია</h1>
+                              <div class="popup-flow">
+                              <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                                  რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                                  შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                                  სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                                  ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                                  ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                                  <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
+                              </div>  
+                          </div>
+                      </div>
                     </div>
-                </div> -->
-            </div>
+
+
                     <div class="popup_main">
-                        <ul class="background-topo open_popup" id="myBtn">
-                            <img class="image" src="image/topo.png" alt="topo">
-                            <li class="service-name"  >ტოპოგრაფია</li>                            
-                        </ul>
-                        <div class="popup_body">
-                          <div class="popup_back"></div>
-                            <div class="popup_contain">
-                              <div class="popup_close">&times;</div>                               
-                                
-                                <h1 class="popup-head"> ტოპოგრაფია</h1>
-                                <div class="popup-flow">
-                                <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                    რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                    შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                    სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                    ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                    ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                    <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
-                                </div>  
-                            </div>
-                        </div>
-                      </div>
-
-
-                      <div class="popup_main">
-                        <ul class="background-shida" id="myBtnShida">
-                            <img class="image" src="image/shida.png" alt="shida">
-                            <li class="service-name">შიდა აზომვითი ნახაზი</li>
-                        </ul>
-                        <div class="popup_body">
-                          <div class="popup_back"></div>
-                            <div class="popup_contain">
-                              <div class="popup_close">&times;</div>
-                              <h1 class="popup-head"> შიდა აზომვითი ნახაზი</h1>
-                              <div class="popup-flow">
-                              <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                  რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                  შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                  სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                  ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                  ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                  <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                              </div> 
-                            </div>
-                        </div>
-                      </div>
-
-
-                      <div class="popup_main">
-                        <ul class="background-sak" id="myBtn">
-                            <img class="image" src="image/sakadastro.png" alt="sakadastro">
-                            <li class="service-name">საკადასტრო ნახაზი</li>
-                        </ul>
-                        <div class="popup_body">
-                          <div class="popup_back"></div>
-                            <div class="popup_contain">
-                              <div class="popup_close">&times;</div>
-                              <h1 class="popup-head"> საკადასტრო ნახაზი</h1>
-                              <div class="popup-flow">
-                              <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                  რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                  შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                  სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                  ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                  ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                  <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                              </div> 
-                            </div>
-                        </div>
-                      </div>
-   
-            </div>
-
-            <div class="hero hero-second-layer">           
-                <div class="popup_main">
-                    <ul class="background-topo " id="myBtn">
-                        <img class="image" src="image/topo.png" alt="topo">
-                        <li class="service-name">გამიჯვნა-გაერთიანება</li>                            
-                    </ul>
-                    <div class="popup_body">
-                      <div class="popup_back"></div>
-                        <div class="popup_contain">
-                          <div class="popup_close">&times;</div>                               
-                            
-                            <h1 class="popup-head"> გამიჯვნა-გაერთიანება</h1>
+                      <ul class="background-shida hover" id="myBtnShida">
+                          <img class="image" src="image/shida.png" alt="shida">
+                          <li class="service-name">შიდა აზომვითი ნახაზი</li>
+                      </ul>
+                      <div class="popup_body">
+                        <div class="popup_back"></div>
+                          <div class="popup_contain">
+                            <div class="popup_close">&times;</div>
+                            <h1 class="popup-head"> შიდა აზომვითი ნახაზი</h1>
                             <div class="popup-flow">
                             <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
                                 რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
@@ -154,22 +102,49 @@
                                 ტოპოგრაფიული რუკებისა და გეგმების სახით. 
                                 ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
                                 <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                            </div>  
-                        </div>
+                            </div> 
+                          </div>
+                      </div>
                     </div>
-                  </div>
 
 
-                  <div class="popup_main">
-                    <ul class="background-shida " id="myBtnShida">
-                        <img class="image" src="image/point.png" alt="shida">
-                        <li class="service-name">დაკვალვა</li>
-                    </ul>
-                    <div class="popup_body">
-                      <div class="popup_back"></div>
-                        <div class="popup_contain">
-                          <div class="popup_close">&times;</div>
-                          <h1 class="popup-head">დაკვალვა</h1>
+                    <div class="popup_main">
+                      <ul class="background-sak hover" id="myBtn">
+                          <img class="image" src="image/sakadastro.png" alt="sakadastro">
+                          <li class="service-name">საკადასტრო ნახაზი</li>
+                      </ul>
+                      <div class="popup_body">
+                        <div class="popup_back"></div>
+                          <div class="popup_contain">
+                            <div class="popup_close">&times;</div>
+                            <h1 class="popup-head"> საკადასტრო ნახაზი</h1>
+                            <div class="popup-flow">
+                            <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                                რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                                შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                                სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                                ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                                ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                                <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
+                            </div> 
+                          </div>
+                      </div>
+                    </div>
+ 
+          </div>
+
+          <div class="hero hero-second-layer">           
+              <div class="popup_main">
+                  <ul class="background-topo hover" id="myBtn">
+                      <img class="image" src="image/topo.png" alt="topo">
+                      <li class="service-name">გამიჯვნა-გაერთიანება</li>                            
+                  </ul>
+                  <div class="popup_body">
+                    <div class="popup_back"></div>
+                      <div class="popup_contain">
+                        <div class="popup_close">&times;</div>                               
+                          
+                          <h1 class="popup-head"> გამიჯვნა-გაერთიანება</h1>
                           <div class="popup-flow">
                           <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
                               რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
@@ -178,102 +153,110 @@
                               ტოპოგრაფიული რუკებისა და გეგმების სახით. 
                               ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
                               <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                          </div> 
-                        </div>
-                    </div>
+                          </div>  
+                      </div>
                   </div>
-
-                  <div class="popup_main">
-                    <ul class="background-photo">
-                        <img class="image" src="image/photo.png" alt="photo">
-                        <li class="service-name">ფოტო მონტაჟი</li>
-                    </ul>
-                    <div class="popup_body">
-                      <div class="popup_back"></div>
-                        <div class="popup_contain">
-                          <div class="popup_close">&times;</div>
-                          <h1 class="popup-head"> ფოტო მონტაჟი</h1>
-                          <div class="popup-flow">
-                          <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                              რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                              შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                              სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                              ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                              ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                              <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                          </div> 
-                        </div>
-                    </div>
-                </div> 
-
-                  <div class="popup_main">
-                    <ul class="background-sak" id="myBtn">
-                        <img class="image" src="image/call.png" alt="sakadastro">
-                        <li class="service-name">კონსულრტაცია</li>
-                    </ul>
-                    <div class="popup_body">
-                      <div class="popup_back"></div>
-                        <div class="popup_contain">
-                          <div class="popup_close">&times;</div>
-                          <h1 class="popup-head">კონსულრტაცია</h1>
-                          <div class="popup-flow">
-                          <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                              რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                              შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                              სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                              ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                              ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                              <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                          </div> 
-                        </div>
-                    </div>
-                  </div>
-                  
-
-                     
-        </div>
-            
-
-        </section>
-
-
-        <section class="section-contact">
-           
-            <div class="about">
-                <img class="about-image" src="image/about-image.jpg" alt="about image">
-
-                <div>
-                    <div>
-                        <h1 class="service-head"> ჩვენ შესახებ </h1>
-                    </div>
-                    <div class="about-text">
-                    კომპანია დაარსდა 2010 წლის. ჩვენ გთავაზობთ ზემოთ ჩამოთვლილი სერვისების შესრულებას
-                    პროფესიონალურ დონეზე. ჩვენი გამოცდილება ხელს გვიწყობს მებისმიერი პრობლემის დაძლევაში. <br><br>
-                    კომპანიის მთავარი მიზანი პასუხისმგებლობა საქმისადმი და დრო, სწრაფად და ხარისხიანად შესრულდეს თითოეული 
-                    პროექტი, შესაბამის ვადებში.<br><br>
-                    პროექტის მსვლელობისას ჩვენ ასასევე საჭიროებისამებრ გიტარებთ კონსულტაციას თქვენი კონკრეტული საქმისთვის, რა არის საჭირო
-                    და როგორ მივიყვანოთ დაწყებული საქმე ბოლომდე.
-                    </div>
                 </div>
-                
+
+
+                <div class="popup_main">
+                  <ul class="background-shida hover" id="myBtnShida">
+                      <img class="image" src="image/point.png" alt="shida">
+                      <li class="service-name">დაკვალვა</li>
+                  </ul>
+                  <div class="popup_body">
+                    <div class="popup_back"></div>
+                      <div class="popup_contain">
+                        <div class="popup_close">&times;</div>
+                        <h1 class="popup-head">დაკვალვა</h1>
+                        <div class="popup-flow">
+                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
+                        </div> 
+                      </div>
+                  </div>
+                </div>
+
+                <div class="popup_main">
+                  <ul class="background-photo hover">
+                      <img class="image" src="image/photo.png" alt="photo">
+                      <li class="service-name">ფოტო მონტაჟი</li>
+                  </ul>
+                  <div class="popup_body">
+                    <div class="popup_back"></div>
+                      <div class="popup_contain">
+                        <div class="popup_close">&times;</div>
+                        <h1 class="popup-head"> ფოტო მონტაჟი</h1>
+                        <div class="popup-flow">
+                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
+                        </div> 
+                      </div>
+                  </div>
+              </div> 
+
+                <div class="popup_main">
+                  <ul class="background-sak hover" id="myBtn">
+                      <img class="image" src="image/call.png" alt="sakadastro">
+                      <li class="service-name">კონსულრტაცია</li>
+                  </ul>
+                  <div class="popup_body">
+                    <div class="popup_back"></div>
+                      <div class="popup_contain">
+                        <div class="popup_close">&times;</div>
+                        <h1 class="popup-head">კონსულრტაცია</h1>
+                        <div class="popup-flow">
+                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
+                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
+                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
+                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
+                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
+                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
+                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
+                        </div> 
+                      </div>
+                  </div>
+                </div>                   
+      </div>
+    </section>
+    <section class="section-contact">         
+      <div class="about">
+        <img class="about-image" src="image/img-1.jpg" alt="about image">
+        <div>
+          <div>
+            <h1 class="service-head"> ჩვენ შესახებ </h1>
+          </div>
+            <div class="about-text">
+              კომპანია დაარსდა 2010 წელს. ჩვენ გთავაზობთ ზემოთ ჩამოთვლილი სერვისების შესრულებას
+              პროფესიონალურ დონეზე. ჩვენი გამოცდილება ხელს გვიწყობს მებისმიერი ამათუ იმ საქმის ან პრობლემის დაძლევაში. <br><br>
+              კომპანიის მთავარი მიზანი პასუხისმგებლობა საქმისადმი და დრო, სწრაფად და ხარისხიანად შესრულდეს თითოეული 
+              პროექტი, შესაბამის ვადებში.
             </div>
-        </section>
-        <section class="mini-contact">
-            <div class="cont-1">
-                +995 558 21 22 23
-            </div>
-            <div class="cont-2">
-                architects@gmail.com
-            </div>
-        </section>
-        <div class="recerv">
-            2021 ყველა უფლება დაცულია
+          </div>            
         </div>
+      </section>
 
-
-
-
-
+      <section class="mini-contact">
+          <div class="cont-1">
+              +995 558 21 22 23
+          </div>
+          <div class="cont-2">
+              architects@gmail.com
+          </div>
+      </section>
+      <div class="recerv">
+          2021 ყველა უფლება დაცულია
+      </div>
 <script src="js/popup.js" ></script>
     </body>
 </html>
