@@ -129,6 +129,7 @@
 .hover:hover{
     background-color: white ;
     transition: 0.5s;
+    transform: scale(1.05); 
 }
 
 
@@ -271,7 +272,6 @@
     padding: 10px 20px;
   }
   .popup_close{
-
     position: absolute;
     right: 20px;
     top: 8px;
@@ -297,3 +297,40 @@
     transition: 0.5s;
 }
 
+/*
+
+
+--------- Second Page -----------
+
+
+*/
+
+
+.contact-us{
+    margin: 4rem 0;
+}
+
+.contact-row{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-row div{
+    text-align: center;
+}
+
+.ion-icon{
+    font-size: 20px;
+    background-color: #005C7A;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.map-in-row{
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 4rem;
+}
