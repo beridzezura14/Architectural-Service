@@ -3,305 +3,204 @@
     <head>
         <title>მთავარი &mdash; Home</title>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
         <meta charset="utf-8">        
-        <link rel="shortcut icon" href="image/main-logo.png"> 
+        <link rel="shortcut icon" href="image/LogoProfilePNG.png"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     </head>
-<body>
-<!--         
-  <section class="main-navbar">
-    <navbar class="navbar">
-      <div>
-        <img class="main-logo" src="image/main-logo.png" alt="logo">
-        </div>
-          <ul class="nav">
-            <li>
-              <a class="nav-a" href="index.html">მთავარი</a>
-            </li>
-            <li>
-              <a class="nav-a" href="contact.html">საკონტაქტო</a> 
-            </li>
-          </ul>
-    </navbar>
-  </section> -->
-
-  <section class="section-hero">
-    <section class="main-navbar">
-      <navbar class="navbar">
-        <div>
-          <img class="main-logo" src="image/main-logo.png" alt="logo">
-          </div>
-            <ul class="nav">
-              <li>
-                <a class="nav-a" href="index.html">მთავარი</a>
-              </li>
-              <li>
-                <a class="nav-a" href="contact.html">საკონტაქტო</a> 
-              </li>
-            </ul>
-      </navbar>
-    </section>
-
-          <!-- <div>
-              <h1 class="service-head" >  სერვისები  </h1>
-          </div> -->
-
-
-
-
-    <div class="hero-row  fade-in">
-      <div class="row-1">
-        <p>არქიტექტურული კომპანია:</p>
-      </div>
-      <div class="row-2">
-        <h1>არქიტექტურული სერვისი</h1>
-      </div>
-      <div class="row-3">
-        <p>ჩვენთვის ხარისხი და დრო არის ყველაზე მნიშვნელოვანი</p>
-      </div>
-      <div class="row-4-time">
-        <h5>სამუშო საათები:</h5>
-        <p>ორშაბათი-პარასკევი: 10:00 - 19:00 სთ</p>
-      </div>
-    </div>
-  </section>
-  <section class="section-services">      
-    <div class="hero fade-in">              
-      <div class="popup_main no-color">
-        <ul class="background-photo "   style="background-color: white; cursor:unset">
-          <!-- <img class="image" src="image/photo.png" alt="photo">
-          <li class="service-name">ფოტო მონტაჟი</li> -->
-          <h1 class="services">სერვისები</h1>
-        </ul>
-          <!-- <div class="popup_body">
-                <div class="popup_back"></div>
-                  <div class="popup_contain">
-                    <div class="popup_close">&times;</div>
-                    <h1 class="popup-head"> ფოტო მონტაჟი</h1>
-                    <div class="popup-flow">
-                    <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                        რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                        შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                        სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                        ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                        ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                        <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
-                    </div> 
-                  </div>
-              </div> -->
-          </div>
-                  <div class="popup_main">
-                      <ul class="background-topo open_popup hover" id="myBtn">
-                          <img class="image" src="image/topo.png" alt="topo">
-                          <li class="service-name"  >ტოპოგრაფია</li>                            
-                      </ul>
-                      <div class="popup_body">
-                        <div class="popup_back"></div>
-                          <div class="popup_contain">
-                            <div class="popup_close">&times;</div>                               
-                              
-                              <h1 class="popup-head"> ტოპოგრაფია</h1>
-                              <div class="popup-flow">
-                              <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                  რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                  შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                  სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                  ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                  ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                  <img class="popup-image" src="image/topo-popup.jpg" alt=""> 
-                              </div>  
-                          </div>
-                      </div>
-                    </div>
-
-
-                    <div class="popup_main">
-                      <ul class="background-shida hover" id="myBtnShida">
-                          <img class="image" src="image/shida.png" alt="shida">
-                          <li class="service-name">შიდა აზომვითი ნახაზი</li>
-                      </ul>
-                      <div class="popup_body">
-                        <div class="popup_back"></div>
-                          <div class="popup_contain">
-                            <div class="popup_close">&times;</div>
-                            <h1 class="popup-head"> შიდა აზომვითი ნახაზი</h1>
-                            <div class="popup-flow">
-                            <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                            </div> 
-                          </div>
-                      </div>
-                    </div>
-
-
-                    <div class="popup_main">
-                      <ul class="background-sak hover" id="myBtn">
-                          <img class="image" src="image/sakadastro.png" alt="sakadastro">
-                          <li class="service-name">საკადასტრო ნახაზი</li>
-                      </ul>
-                      <div class="popup_body">
-                        <div class="popup_back"></div>
-                          <div class="popup_contain">
-                            <div class="popup_close">&times;</div>
-                            <h1 class="popup-head"> საკადასტრო ნახაზი</h1>
-                            <div class="popup-flow">
-                            <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                                რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                                შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                                სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                                ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                                ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                                <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                            </div> 
-                          </div>
-                      </div>
-                    </div>
- 
-          </div>
-
-          <div class="hero hero-second-layer fade-in">           
-              <div class="popup_main">
-                  <ul class="background-topo hover" id="myBtn">
-                      <img class="image" src="image/topo.png" alt="topo">
-                      <li class="service-name">გამიჯვნა-გაერთიანება</li>                            
-                  </ul>
-                  <div class="popup_body">
-                    <div class="popup_back"></div>
-                      <div class="popup_contain">
-                        <div class="popup_close">&times;</div>                               
-                          
-                          <h1 class="popup-head"> გამიჯვნა-გაერთიანება</h1>
-                          <div class="popup-flow">
-                          <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                              რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                              შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                              სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                              ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                              ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                              <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                          </div>  
-                      </div>
-                  </div>
+    <body>
+       <!----> <section-navbar class="sction-navbar">
+            <nav class="navbar">
+                <label  for="logo"><a href="index.html">
+                  <img class="logo" src="image/LogoProfilePNG.png" alt="architectural service"></a>
+                </label>
+                <ul>
+                    <li><a href="#">მთავარი</a></li>
+                    <li><a href="#">ჩვენს შესახებ</a></li>
+                    <li><a href="#">საკონტაქტო</a></li>
+                    <li><a href="#">ბლოგი</a></li>
+                    <li><a href="#">feedback</a></li>
+                </ul>
+                <label id="icon">
+                    <ion-icon name="list-outline"></ion-icon>
+                </label>
+            </nav>
+        </section-navbar>
+     <section-info-1 class="section-info-1">            
+            <!--<div id="myDIV" style="display: none;">
+                <div class="mini-info">
+                    <ion-icon class="ion-icon-1" name="call-outline"></ion-icon><li>დაგვიკავშირდით: 558 22 33 44</li>
                 </div>
-
-
-                <div class="popup_main">
-                  <ul class="background-shida hover" id="myBtnShida">
-                      <img class="image" src="image/point.png" alt="shida">
-                      <li class="service-name">დაკვალვა</li>
-                  </ul>
-                  <div class="popup_body">
-                    <div class="popup_back"></div>
-                      <div class="popup_contain">
-                        <div class="popup_close">&times;</div>
-                        <h1 class="popup-head">დაკვალვა</h1>
-                        <div class="popup-flow">
-                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                        </div> 
-                      </div>
-                  </div>
+                   <div class="mini-info">
+                <ion-icon class="ion-icon-1" name="mail-outline"></ion-icon><li>Email: architects@gmail.com</li>
+                   </div>
+                <div class="mini-info">
+                    <ion-icon class="ion-icon-1" name="map-outline"></ion-icon><li>მისამართი: ა.წერეთლის გამზ. N-115ა</li>
                 </div>
-
-                <div class="popup_main">
-                  <ul class="background-photo hover">
-                      <img class="image" src="image/photo.png" alt="photo">
-                      <li class="service-name">ფოტო მონტაჟი</li>
-                  </ul>
-                  <div class="popup_body">
-                    <div class="popup_back"></div>
-                      <div class="popup_contain">
-                        <div class="popup_close">&times;</div>
-                        <h1 class="popup-head"> ფოტო მონტაჟი</h1>
-                        <div class="popup-flow">
-                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                        </div> 
-                      </div>
+            </div>
+            <div class="show-down" onclick="myFunction()"><ion-icon name="chevron-down-outline"></ion-icon></div>
+      -->     
+     </section-info-1>
+     <section-main-pic class="section-main-pic">
+             <div class="hero-row  fade-in">
+                <div class="row-1">
+                  <p>არქიტექტურული და გეოდეზიური კომპანია:</p>
+                </div>
+                <div class="row-2">
+                  <h1>არქიტექტურული სერვისი</h1>
+                </div>
+                <div class="row-3">
+                  <p>ჩვენთვის ხარისხი და დრო არის ყველაზე მნიშვნელოვანი</p>
+                </div>
+                <div class="row-4-time">
+                  <h5>სამუშო საათები:</h5>
+                  <p>ორშაბათი-პარასკევი: 10:00 - 19:00 სთ</p>
+                </div>
+                <div class="hero-info">
+                  <h5 class="row-info">საკონტაქტო:</h5>
+                  <div class="mini-info">
+                      <li>დაგვიკავშირდით: 558 22 33 44</li>
                   </div>
-              </div> 
-
-                <div class="popup_main">
-                  <ul class="background-sak hover" id="myBtn">
-                      <img class="image" src="image/call.png" alt="sakadastro">
-                      <li class="service-name">კონსულრტაცია</li>
-                  </ul>
-                  <div class="popup_body">
-                    <div class="popup_back"></div>
-                      <div class="popup_contain">
-                        <div class="popup_close">&times;</div>
-                        <h1 class="popup-head">კონსულრტაცია</h1>
-                        <div class="popup-flow">
-                        <p class="description">ტოპოგრაფია  — გეოდეზიიის დარგი, 
-                            რომლის ამოცანას შეადგენს კარტოგრაფიის უზრუნველყოფა მაღალი სიზუსტის გეოდეზიური საფუძვლის ბაზაზე 
-                            შექმნილი მსხვილმასშტაბიანი რუკებით; იმავე ბაზაზე საკუთარი საყრდენი საფუძვლის შექმნა შედარებით მცირე 
-                            სივრცეებისათვის; ადგილის აგეგმვა; განაზომთა მათემატიკური დამუშავება გამონათვალთა გრაფიკულად გამოხაზვა 
-                            ტოპოგრაფიული რუკებისა და გეგმების სახით. 
-                            ტოპოგრაფია შეისწავლის აგრეთვე ტოპოგრაფიული რუკების დახაზვის მეთოდებს.</p>
-                            <!-- <img class="popup-image" src="image/topo-popup.jpg" alt="">  -->
-                        </div> 
-                      </div>
+                  <div class="mini-info">
+                      <li>მისამართი: ა.წერეთლის გამზ. N-115ა</li>
                   </div>
-                </div>                   
-      </div>
+                 </div>
+              </div>
+        </section-main-pic>
 
-    </section>
+        <section-services class="section-services">
+            <h1 class="main-service-head">სერვისები</h1>
+            <div class="main-service">
+                <li class="margin-low">
+                    <img class="serv-image" src="image/SERVICE/sak.PNG" alt="">
+                    <img class="small-image" src="image/LogoProfilePNGhome.png" alt="mini-logo">
+                    <h3 class="serv-head">საკადასტრო ნახაზი</h3>
+                    <div class="space"></div>
+                </li>
+                <li class="margin-low">
+                    <img class="serv-image" src="image/SERVICE/sak.PNG" alt="">
+                    <img class="small-image" src="image/LogoProfilePNGhome.png" alt="mini-logo">
+                    <h3 class="serv-head">ტოპოგრაფია</h3>
+                    <div class="space"></div>
+                </li>
+                <li class="margin-low">
+                    <img class="serv-image" src="image/SERVICE/sak.PNG" alt="">
+                    <img class="small-image" src="image/LogoProfilePNGhome.png" alt="mini-logo">
+                    <h3 class="serv-head add-paddong">შიდა აზომვითი ნახაზი</h3>
+                    <div class="space"></div>
+                </li>
+                <li class="margin-low">
+                    <img class="serv-image" src="image/SERVICE/sak.PNG" alt="">
+                    <img class="small-image" src="image/LogoProfilePNGhome.png" alt="mini-logo">
+                    <h3 class="serv-head">გამიჯვნა-გაერთიანება</h3>
+                    <div class="space"></div>
+                </li>
+                <li class="margin-low">
+                    <img class="serv-image" src="image/SERVICE/sak.PNG" alt="">
+                    <img class="small-image" src="image/LogoProfilePNGhome.png" alt="mini-logo">
+                    <h3 class="serv-head">კონსულტაცია</h3>
+                    <div class="space"></div>
+                </li>
+            </div>
+        </section-services>
 
 
+        <section-aboute class="section-about">         
+            <div class="about">
+                <div>
+                    <h1 class="service-head"> ჩვენ შესახებ </h1>
+                  </div>
+                  <div class="about-text">
+                    კომპანია დაარსდა 2010 წელს. ჩვენ გთავაზობთ ზემოთ ჩამოთვლილი სერვისების შესრულებას
+                    პროფესიონალურ დონეზე. ჩვენი გამოცდილება ხელს გვიწყობს მებისმიერი ამათუ იმ საქმის ან პრობლემის დაძლევაში. <br><br>
+                    კომპანიის მთავარი მიზანი პასუხისმგებლობა საქმისადმი და დრო, სწრაფად და ხარისხიანად შესრულდეს თითოეული 
+                    პროექტი, შესაბამის ვადებში.
+                  </div>
+                <!--<img class="about-image iamge-1" src="image/main-pic-3.jpg" alt="about image">
+                <img class="about-image iamge-2" src="image/main-pic-3.jpg" alt="about image">
+                <img class="about-image iamge-3" src="image/main-pic-3.jpg" alt="about image">-->
+            </div>            
+        </section-aboute>
+        <footer>
+            <div class="col-1-1">
+                <img class="footer-image" src="image/LogoProfilePNG.png" alt="">
+            </div>
+            <div class="footer">
+                <div class="footer-menu">
+                    <li><ion-icon class="footer-icon" name="chevron-forward-outline"></ion-icon><a href="#">მთავარი</a></li>
+                    <li><ion-icon class="footer-icon" name="chevron-forward-outline"></ion-icon><a href="#">ჩვენს შესახებ</a></li>
+                    <li><ion-icon class="footer-icon" name="chevron-forward-outline"></ion-icon><a href="#">საკონტაქტო</a></li>
+                    <li><ion-icon class="footer-icon" name="chevron-forward-outline"></ion-icon><a href="#">ბლოგი</a></li>
+                    <li><ion-icon class="footer-icon" name="chevron-forward-outline"></ion-icon><a href="#">feedback</a></li>
+                </div>
+                <div class="footer-info">
+                  <div class="mini-info">
+                      <ion-icon class="ion-icon-1" name="call-outline"></ion-icon><li>დაგვიკავშირდით: 558 22 33 44</li>
+                  </div>
+                     <div class="mini-info">
+                  <ion-icon class="ion-icon-1" name="mail-outline"></ion-icon><li>Email: architects@gmail.com</li>
+                     </div>
+                  <div class="mini-info">
+                      <ion-icon class="ion-icon-1" name="map-outline"></ion-icon><li>მისამართი: ა.წერეთლის გამზ. N-115ა</li>
+                  </div>
+                 </div>
+    
+                <table id="customers">
+                    <tr>
+                  
+                      <th>კვირის დღე</th>
+                      <th>10:00 - 19:00</th>
+                    </tr>
+                    <tr>
+                  
+                      <td>ორშაბათი</td>
+                      <td>10:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                  
+                      <td>სამშაბათი</td>
+                      <td>10:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                  
+                        <td>ოთხშაბათი</td>
+                        <td>10:00 - 19:00</td>
+                      </tr>
+                    <tr>                  
+                      <td>ხუთშაბათი</td>
+                      <td>10:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                  
+                      <td>პარასკევი</td>
+                      <td>10:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                  
+                      <td>შაბათი</td>
+                      <td>დაკეტილია</td>
+                    </tr>
+                    <tr>
+                  
+                      <td>კვირა</td>
+                      <td>დაკეტილია</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="reserved">Created by Architectural Service. All rights reserved.</div>
+        </footer>
 
-    <section class="section-contact">         
-      <div class="about">
-        <img class="about-image" src="image/img-1.jpg" alt="about image">
-        <div>
-          <div>
-            <h1 class="service-head"> ჩვენ შესახებ </h1>
-          </div>
-          <div class="about-text">
-            კომპანია დაარსდა 2010 წელს. ჩვენ გთავაზობთ ზემოთ ჩამოთვლილი სერვისების შესრულებას
-            პროფესიონალურ დონეზე. ჩვენი გამოცდილება ხელს გვიწყობს მებისმიერი ამათუ იმ საქმის ან პრობლემის დაძლევაში. <br><br>
-            კომპანიის მთავარი მიზანი პასუხისმგებლობა საქმისადმი და დრო, სწრაფად და ხარისხიანად შესრულდეს თითოეული 
-            პროექტი, შესაბამის ვადებში.
-          </div>
-        </div>            
-      </div>
-    </section>
 
-      <section class="mini-contact">
-          <div class="cont-1">
-              +995 558 21 22 23
-          </div>
-          <div class="cont-2">
-              architects@gmail.com
-          </div>
-      </section>
-      <div class="recerv">
-          2021 ყველა უფლება დაცულია
-      </div>
-<script src="js/popup.js" ></script>
-<script src="js/scroll.js" ></script>
     </body>
+    
+  <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
 </html>
-
-
-
-<!-- open_popup -->
-<!-- ეს კლასი უნდა მივუთითო პოპაპის ამოსაგდებად -->
