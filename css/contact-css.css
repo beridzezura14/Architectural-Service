@@ -1,0 +1,52 @@
+.sction-navbar{
+    z-index: 111;
+}
+.also-contact{
+    background: linear-gradient(rgba(1, 21, 46, 0.63), rgba(0, 0, 0, 0.63)),url("image/main-pic-3.jpg") 
+                center no-repeat;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+    color: #EFFAFA;
+    background-attachment: fixed;
+}
+.service-head{
+    font-size: 35px;
+}
+
+.contact-us{
+    margin: 4rem 0;
+}
+
+.contact-row{
+    max-width: 94%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-row div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.contact-row div li{
+    font-size: 20px;
+}
+
+.ion-icon{
+    font-size: 20px;
+    background-color: #00A199;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 15px;
+    z-index: -111;
+}
+.map-in-row{
+    max-width: 100%;
+    margin-bottom: 4rem;
+}
