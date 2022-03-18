@@ -30,10 +30,16 @@
     margin-left: 25px;
 }
 
-.navbar a{
+.navbar li a{
     color: white;
     font-size: 22px;
     text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar li a:hover{
+    color: white;
+    background-color: #03968e;
 }
 .navbar #icon{
     color: #00A199;
@@ -273,6 +279,10 @@
     font-size: 15px;
 }
 
+/* about second page */
+.about-us{
+    padding: 3rem 0;
+}
 
 
 /*------------------------*/
